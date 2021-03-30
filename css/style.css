@@ -1,0 +1,37 @@
+body{
+    background-color: grey;
+    margin: 0%;
+    padding: 5%;
+}
+header{
+    color: #32045d;
+    background-color:#d46ea3;
+    height: 80px;
+}
+header h1{
+    float: left; 
+    margin-left: 40px;
+}
+header nav{
+    float: right;
+    margin-right: 5%;
+}
+header nav ul li{
+    font-weight: 700;
+    font-size: small;
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+main{
+    background-color: indigo;
+    color: #d46ea3;
+}
+.first{
+    text-align: center;
+}
+footer{
+    color: #32045d;
+    background-color:#d46ea3;
+    text-align: center;
+}
