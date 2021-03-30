@@ -30,6 +30,12 @@ main{
 .first{
     text-align: center;
 }
+.second{
+    text-align: center;
+}
+.third{
+    text-align: center;
+}
 footer{
     color: #32045d;
     background-color:#d46ea3;
