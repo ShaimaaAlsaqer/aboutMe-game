@@ -8,19 +8,24 @@ while (!userName) {
 alert('Hello ' + userName + " " + 'enjoy');
 alert('now I will ask you a five question and you should answer yes/y or no/n');
 
-let time = prompt('Do I like summer timing, that make 8 am become 9 am?');
-time = time.toLowerCase();
-//console.log(time);
-if (time === 'yes' || time === 'y') {
-    //console.log('no, you are wrong I do not like it');
-    alert('no, you are wrong I do not like it');
-} else if (time === 'no' || time === 'n') {
-    //console.log('you are right');
-    alert('you are right');
-} else {
-    //console.log('please, just answer yes, y, no, or n. and without spaces');
-    alert('please, just answer yes, y, no, or n. and without spaces');
+function firstQuestion() {
+    let time = prompt('Do I like summer timing, that make 8 am become 9 am?');
+    time = time.toLowerCase();
+    //console.log(time);
+    if (time === 'yes' || time === 'y') {
+        //console.log('no, you are wrong I do not like it');
+        alert('no, you are wrong I do not like it');
+    } else if (time === 'no' || time === 'n') {
+        //console.log('you are right');
+        alert('you are right');
+    } else {
+        //console.log('please, just answer yes, y, no, or n. and without spaces');
+        alert('please, just answer yes, y, no, or n. and without spaces');
+    }
+
 }
+
+firstQuestion();
 
 let MyPhone = prompt('Do you think that my phone is iphone?');
 MyPhone = MyPhone.toLowerCase();
@@ -101,7 +106,7 @@ if (counter > 4) {
 }
 
 let Names = ['Shaima', 'Huda', 'Amal', 'Ross', 'Yasemin', 'Ola'];
-let indexNum= prompt('guss the right name or index name from 0 to 6');
+let indexNum = prompt('guss the right name or index name from 0 to 6');
 let score = 0;
 for (let i = 0; i < Names.length; i++) {
     if (Names[indexNum] === Names[0]) {
