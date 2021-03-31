@@ -51,7 +51,7 @@ function thirdQuestion()
 {
     let chocolateChips = prompt('Do I love chocolate and chips?');
 chocolateChips = chocolateChips.toLowerCase();
-console.log(chocolateChips);
+//console.log(chocolateChips);
 if (chocolateChips === 'yes' || chocolateChips === 'y') {
     //console.log('you are right');
     alert('you are right');
@@ -122,14 +122,17 @@ for (let counter = 0; counter < 4; counter++) {
     }
 
 }
+//if (counter > 4) {
+ //   alert('you finish your all 4 trying, the number is 6');
+//}
+ 
 }
 sixthQuestion();
 
-if (counter > 4) {
-    alert('you finish your all 4 trying, the number is 6');
-}
 
-let Names = ['Shaima', 'Huda', 'Amal', 'Ross', 'Yasemin', 'Ola'];
+function seventhQuestions()
+{
+    let Names = ['Shaima', 'Huda', 'Amal', 'Ross', 'Yasemin', 'Ola'];
 let indexNum = prompt('guss the right name or index name from 0 to 6');
 let score = 0;
 for (let i = 0; i < Names.length; i++) {
@@ -147,6 +150,8 @@ for (let i = 0; i < Names.length; i++) {
     }
 }
 alert('thank you for playing ' + userName + 'your score' + score);
+}
+seventhQuestions();
 
 alert('thank you ' + userName + " " + 'I hope you had fun');
 
