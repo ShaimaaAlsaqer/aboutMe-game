@@ -103,7 +103,9 @@ if (car === 'yes' || car === 'y') {
 }
 fifthQuestion();
 
-let number = prompt('guess number from 0 to 12, you have just 4 trying');
+function sixthQuestion()
+{
+    let number = prompt('guess number from 0 to 12, you have just 4 trying');
 //console.log(number);
 let guessNumber = 6;
 for (let counter = 0; counter < 4; counter++) {
@@ -120,6 +122,8 @@ for (let counter = 0; counter < 4; counter++) {
     }
 
 }
+}
+sixthQuestion();
 
 if (counter > 4) {
     alert('you finish your all 4 trying, the number is 6');
