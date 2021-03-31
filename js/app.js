@@ -65,7 +65,10 @@ if (chocolateChips === 'yes' || chocolateChips === 'y') {
 }
 thirdQuestion();
 
-let leftHand = prompt('Do you think I am writing with my left hand?');
+
+function fourthQuestion()
+{
+    let leftHand = prompt('Do you think I am writing with my left hand?');
 leftHand = leftHand.toLowerCase();
 //console.log(leftHand);
 if (leftHand === 'yes' || leftHand === 'y') {
@@ -78,6 +81,9 @@ if (leftHand === 'yes' || leftHand === 'y') {
     //console.log('please, just answer yes, y, no, or n. and without spaces');
     alert('please, just answer yes, y, no, or n. and without spaces');
 }
+}
+
+fourthQuestion();
 
 let car = prompt('Do I have a car?');
 car = car.toLowerCase();
