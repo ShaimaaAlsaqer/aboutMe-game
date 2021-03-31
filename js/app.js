@@ -78,11 +78,11 @@ if (car === 'yes' || car === 'y') {
     alert('please, just answer yes, y, no, or n. and without spaces');
 }
 
-let number = prompt('guess number from 0 to 12, you have just 4 trying');
-//console.log(number);
 let guessNumber = 6;
+//console.log(number);
 for (let counter = 0; counter < 4; counter++) {
-
+    let number = prompt('guess number from 0 to 12, you have just 4 trying');
+    number = parseInt(number);
     if (number === guessNumber) {
         alert('you are right');
         break;
@@ -93,19 +93,19 @@ for (let counter = 0; counter < 4; counter++) {
     } else {
         alert('please input number from 0 to 12 ');
     }
-
-}
-
-if (counter > 4) {
     alert('you finish your all 4 trying, the number is 6');
 }
 
+
 let Names = ['Shaima', 'Huda', 'Amal', 'Ross', 'Yasemin', 'Ola'];
-let indexNum= prompt('guss the right name or index name from 0 to 6');
-let score = 0;
-for (let i = 0; i < Names.length; i++) {
+for (let i = 0; i <= 4; i++) {
+    let indexNum= prompt('guss the right name for index name from 0 to 6');
+        indexNum=parseInt(indexNum);
+    let score = 1;
+    console.log('hello');
     if (Names[indexNum] === Names[0]) {
         alert('right');
+        break;
         score = score + 1;
     } else if (Names[indexNum] === Names[3]) {
         alert('right');
@@ -116,8 +116,9 @@ for (let i = 0; i < Names.length; i++) {
     } else {
         alert('choose index from 0 to 6');
     }
-}
-alert('thank you for playing ' + userName + 'your score' + score);
 
-alert('thank you ' + userName + " " + 'I hope you had fun');
+}
+// alert('thank you for playing ' + userName + 'your score' + score);
+
+// alert('thank you ' + userName + " " + 'I hope you had fun');
 
