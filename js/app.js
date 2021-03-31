@@ -46,7 +46,10 @@ if (MyPhone === 'yes' || MyPhone === 'y') {
 }
 secondQuestion();
 
-let chocolateChips = prompt('Do I love chocolate and chips?');
+
+function thirdQuestion()
+{
+    let chocolateChips = prompt('Do I love chocolate and chips?');
 chocolateChips = chocolateChips.toLowerCase();
 console.log(chocolateChips);
 if (chocolateChips === 'yes' || chocolateChips === 'y') {
@@ -59,6 +62,8 @@ if (chocolateChips === 'yes' || chocolateChips === 'y') {
     //console.log('please, just answer yes, y, no, or n. and without spaces');
     alert('please, just answer yes, y, no, or n. and without spaces');
 }
+}
+thirdQuestion();
 
 let leftHand = prompt('Do you think I am writing with my left hand?');
 leftHand = leftHand.toLowerCase();
