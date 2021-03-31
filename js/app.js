@@ -127,7 +127,7 @@ for (let counter = 0; counter < 4; counter++) {
 //}
  
 }
-sixthQuestion();
+//sixthQuestion();
 
 
 function seventhQuestions()
@@ -151,7 +151,7 @@ for (let i = 0; i < Names.length; i++) {
 }
 alert('thank you for playing ' + userName + 'your score' + score);
 }
-seventhQuestions();
+//seventhQuestions();
 
 alert('thank you ' + userName + " " + 'I hope you had fun');
 
