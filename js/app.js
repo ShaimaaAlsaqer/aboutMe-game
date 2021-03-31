@@ -27,7 +27,10 @@ function firstQuestion() {
 
 firstQuestion();
 
-let MyPhone = prompt('Do you think that my phone is iphone?');
+
+function secondQuestion()
+{
+    let MyPhone = prompt('Do you think that my phone is iphone?');
 MyPhone = MyPhone.toLowerCase();
 //console.log(MyPhone);
 if (MyPhone === 'yes' || MyPhone === 'y') {
@@ -40,6 +43,8 @@ if (MyPhone === 'yes' || MyPhone === 'y') {
     //console.log('please, just answer yes, y, no, or n. and without spaces');
     alert('please, just answer yes, y, no, or n. and without spaces');
 }
+}
+secondQuestion();
 
 let chocolateChips = prompt('Do I love chocolate and chips?');
 chocolateChips = chocolateChips.toLowerCase();
