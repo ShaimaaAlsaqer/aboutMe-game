@@ -85,7 +85,9 @@ if (leftHand === 'yes' || leftHand === 'y') {
 
 fourthQuestion();
 
-let car = prompt('Do I have a car?');
+function fifthQuestion()
+{
+    let car = prompt('Do I have a car?');
 car = car.toLowerCase();
 //console.log(car);
 if (car === 'yes' || car === 'y') {
@@ -98,6 +100,8 @@ if (car === 'yes' || car === 'y') {
     //console.log('please, just answer yes, y, no, or n. and without spaces');
     alert('please, just answer yes, y, no, or n. and without spaces');
 }
+}
+fifthQuestion();
 
 let number = prompt('guess number from 0 to 12, you have just 4 trying');
 //console.log(number);
