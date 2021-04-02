@@ -3,6 +3,9 @@ body{
     margin: 0%;
     padding: 5%;
 }
+p{
+    font-family: 'Yatra One', cursive;
+}
 header{
     color: #32045d;
     background-color:#d46ea3;
