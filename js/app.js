@@ -1,7 +1,7 @@
 'use strict';
 alert('welcome to playing game');
 let userName = prompt('what\'s your name?');
-while (!userName) {
+if (!userName) {
     prompt('please write your name');
 }
 alert('Hello ' + userName + " " + 'enjoy');
